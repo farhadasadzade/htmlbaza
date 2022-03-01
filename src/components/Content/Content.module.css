@@ -1,0 +1,12 @@
+.content {
+    grid-area: c;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+    height: calc(100vh - 100px);
+    padding: 25px;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}

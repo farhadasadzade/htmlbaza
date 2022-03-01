@@ -1,0 +1,26 @@
+.element {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.element:hover {
+    background-color: #c7c7c7;
+}
+
+.element-name {
+    color: #2700ff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.element-description {
+    color: #000000;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+.active {
+    background-color: #c7c7c7;
+}

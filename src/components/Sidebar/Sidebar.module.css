@@ -1,0 +1,57 @@
+.sidebar {
+    grid-area: s;
+    height: 100vh;
+    padding-top: 15px;
+}
+
+.logo {
+    font-size: 38px;
+    font-family: 'Krona One', sans-serif;
+    color: #2700ff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+.search-box {
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    border: none;
+    font-size: 18px;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.search-btn {
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #2700ff;
+    color: white;
+}
+
+.elements {
+    overflow-y: scroll;
+    height: calc(100vh - 140px);
+}
+
+.navlink {
+    text-decoration: none;
+}

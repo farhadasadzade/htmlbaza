@@ -10,7 +10,7 @@ const Content = (props) => {
     let routeElements = props.state.elementsData.map( (element, index) => 
                                       <Route 
                                             key={index} 
-                                            path={"/" + element.name.replace(/<|>/g, '')} 
+                                            path={"/htmlbaza/" + element.name.replace(/<|>/g, '')} 
                                             element={<HtmlElementPage state={props.state}
                                                                       number={index}/>}/>)
 
@@ -18,7 +18,7 @@ const Content = (props) => {
       <div className={style.content}>
         <div className={style.container}>
           <Routes>
-            <Route path="/" element={<Home state={props.state}/>} />
+            <Route path="/htmlbaza" element={<Home state={props.state}/>} />
             {routeElements}
           </Routes>
         </div>

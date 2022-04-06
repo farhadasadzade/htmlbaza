@@ -4,7 +4,7 @@ import style from './Element.module.css'
 
 const Element = (props) => {
   return (
-      <NavLink className={style.navlink} to={props.name.replace(/<|>/g, "")}>
+      <NavLink className={style.navlink} to={`/htmlbaza/` + props.name.replace(/<|>/g, "")}>
         <div className={style.element}>
           <h2 className={style["element-name"]}>{props.name}</h2>
           <h4 className={style["element-description"]}>{props.description}</h4>
